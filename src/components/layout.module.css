@@ -1,0 +1,31 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.heading {
+    color: #fff;
+    background-image: linear-gradient(45deg, hsl(270, 50%, 30%), hsl(270, 50%, 45%));
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: hsl(0, 0%, 15%);
+}

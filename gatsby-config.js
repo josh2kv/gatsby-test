@@ -1,6 +1,6 @@
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  plugins: [],
-}
+    siteMetadata: {
+        title: `GatsbyJS Test`,
+    },
+    plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+};
